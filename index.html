@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+  	<meta name="Description" content="">
+  	<title>pop up on load the page</title>
+  	<link rel="stylesheet" type="text/css" href="styles/style.css">
+</head>
+<body>
+	<header>
+		<div class="slider">
+			<div id="head">
+				<div class="container">
+					<div class="nav">
+						<h1>CLASSIC</h1>
+						<div class="list">
+							<ul>
+								<a href="#"><li class="active">Home</li></a>
+								<a href="#"><li>About</li></a>
+								<a href="#"><li>Portfolio</li></a>
+								<a href="#"><li>Testimonials</li></a>
+								<a href="#"><li>Contact</li></a>
+							</ul>
+						</div>
+						<div class="clear"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<div id="registration" class="popUp center">
+		<div class="popUp_items">
+			<h2>REGISTER NOW!</h2>
+			<form class="form" id="form">
+				<input id="Name" class="register" type="text" name="name" placeholder="Name" required>
+				<input id="UserName" class="register" type="text" name="username" placeholder="UserName" required>
+				<input id="phone_number" class="register" type="text" name="phone" placeholder="Phone Number"  required>
+				<!-- <p id="demo"></p> -->
+				<input id="email" class="register" type="email" name="email" placeholder="Email" required>
+				<input id="password1" class="register" type="password" name="password" placeholder="password" required>
+				<input id="password2" class="register" type="password" name="retryPassword" placeholder="Retry password" required>
+				<input id="confirmation" class="register confirm" type="submit" name="submit">
+			</form>
+		</div>
+	</div>
+	<script src="scripts/script.js" type="text/javascript"></script>
+</body>
+</html>

@@ -1,0 +1,103 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: "Gotham SSm A";
+	background-color: #fff;
+}
+
+.clear {
+	clear: both;
+}
+
+.center {
+	position: absolute;
+	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+}
+
+a {
+	color: inherit;
+}
+
+.container {
+	width: 1000px;
+	margin: auto;
+}
+
+.nav {
+	height: 0;
+	color: #fff;
+}
+
+h1 {
+	width: 30%;
+	float: left;
+}
+
+.list {
+	float: left;
+	width: 70%;
+}
+
+li {
+	padding: 15px 10px;
+	display: inline-block;
+	border-bottom: 2px solid transperent;
+	font-weight: bold;
+}
+
+li.active, li:hover {
+	color: #1abc9c;
+	border-bottom: 2px solid #1abc9c;
+}
+
+.slider {
+	position: relative;
+	height: 660px;
+	background-image: url('../images/3.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.popUp {
+	display: none;
+	position: absolute;
+	width: 500px;
+	height: 600px;
+	border: 1px solid #fff;
+	color: #fff;
+	background-color: #1f1c1c;
+}
+
+.show {
+	display: block;
+}
+
+.hide {
+	display: none;
+}
+
+.popUp_items {
+	padding: 20px;
+}
+
+.popUp_items h2 {
+	margin-left: 15px;
+}
+
+.register {
+	width: 80%;
+	margin: 15px;
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	background-color: transparent;
+	color: #fff;
+}
+
+.confirm {
+	width: 50%;
+    font-size: 20px;
+    cursor: pointer;
+}
